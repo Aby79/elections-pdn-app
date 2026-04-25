@@ -1,0 +1,105 @@
+﻿typeListe;region;prefProv;circonscription;nSieges;quota_estimee;PDN_votes_2021;PDN_votes_simulees;PDN_sieges_simules
+locale;Beni-Mellal - Khénifra;Azilal;Azilal - Demnate;3;27194;0;14277;1
+locale;Beni-Mellal - Khénifra;Azilal;Bzou - Ouaouizaght;3;30201;0;15856;1
+locale;Beni-Mellal - Khénifra;Beni-Mellal;Béni-Mellal;6;24122;208;12664;1
+locale;Beni-Mellal - Khénifra;Fquih Ben Salah;Fquih Ben Salah;4;31693;0;16639;0
+locale;Beni-Mellal - Khénifra;Khénifra;Khénifra;3;36425;0;19123;1
+locale;Beni-Mellal - Khénifra;Khouribga;Khouribga;6;21997;0;11548;0
+regionale;Beni-Mellal - Khénifra;;Circonscription régionale : Beni-Mellal - Khénifra;7;96619;700;50725;1
+locale;Casablanca - Settat;Benslimane;Benslimane;3;25953;0;13625;0
+locale;Casablanca - Settat;Berrechid;Berrechid;4;32955;0;20139;1
+locale;Casablanca - Settat;Casablanca;Aïn-Chock;3;10300;0;5408;1
+locale;Casablanca - Settat;Casablanca;Aïn-Sebaâ - Hay-Mohammadi;4;10770;0;5654;1
+locale;Casablanca - Settat;Casablanca;Al-Fida - Mers-Sultan;3;8950;0;4699;1
+locale;Casablanca - Settat;Casablanca;Ben-M'sick;3;8645;0;4539;1
+locale;Casablanca - Settat;Casablanca;Casablanca - Anfa;4;9875;0;5185;1
+locale;Casablanca - Settat;Casablanca;Hay-Hassani;3;9120;0;4788;1
+locale;Casablanca - Settat;Casablanca;Moulay-Rachid;3;12266;0;6440;1
+locale;Casablanca - Settat;Casablanca;Sidi-Bernoussi;3;12960;0;6804;1
+locale;Casablanca - Settat;El-Jadida;El-Jadida;6;33618;0;17649;0
+locale;Casablanca - Settat;Médiouna;Médiouna;2;21391;0;11230;0
+locale;Casablanca - Settat;Mohammadia;Mohammadia;3;22029;0;11565;1
+locale;Casablanca - Settat;Nouaceur;Nouaceur;3;18820;0;9880;1
+locale;Casablanca - Settat;Settat;Settat;6;29800;0;18211;1
+locale;Casablanca - Settat;Sidi Bennour;Sidi Bennour;4;35845;0;18819;0
+regionale;Casablanca - Settat;;Circonscription régionale : Casablanca - Settat;12;97718;0;51302;1
+locale;Dakhla - Oued Ed-Dahab;Aousserd;Aousserd;2;3947;0;789;0
+locale;Dakhla - Oued Ed-Dahab;Oued Ed-Dahab;Oued-Ed-Dahab;2;13476;0;2695;0
+regionale;Dakhla - Oued Ed-Dahab;;Circonscription régionale : Dakhla - Oued Ed-Dahab;3;11492;362;2298;0
+locale;Drâa - Tafilalet;Errachidia;Errachidia;5;22776;0;11957;1
+locale;Drâa - Tafilalet;Midelt;Midelt;3;28834;0;15138;0
+locale;Drâa - Tafilalet;Ouarzazate;Ouarzazate;3;28151;0;14779;1
+locale;Drâa - Tafilalet;Tinghir;Tinghir;3;33521;0;17598;1
+locale;Drâa - Tafilalet;Zagora;Zagora;3;31542;0;16559;0
+regionale;Drâa - Tafilalet;;Circonscription régionale : Drâa - Tafilalet;6;79335;0;41651;1
+locale;Fès - Meknès;Boulemane;Boulemane;3;23966;0;12582;1
+locale;Fès - Meknès;El-Hajeb;El-Hajeb;2;39414;0;20692;0
+locale;Fès - Meknès;Fès;Fès-Chamalia;4;11915;0;7281;1
+locale;Fès - Meknès;Fès;Fès-Janoubia;4;13967;0;8535;1
+locale;Fès - Meknès;Ifrane;Ifrane;2;25772;0;13530;0
+locale;Fès - Meknès;Meknès;Meknès;6;21728;0;13278;1
+locale;Fès - Meknès;Moulay-Yacoub;Moulay-Yacoub;2;27966;0;14682;1
+locale;Fès - Meknès;Sefrou;Sefrou;3;29833;0;18231;0
+locale;Fès - Meknès;Taounate;Karia - Rhafsai;3;33602;0;20535;0
+locale;Fès - Meknès;Taounate;Taounate - Tissa;3;33222;0;20302;1
+locale;Fès - Meknès;Taza;Taza;5;28301;1103;14858;0
+regionale;Fès - Meknès;;Circonscription régionale : Fès - Meknès;10;92409;0;48515;0
+locale;Guelmim - Oued-Noun;Assa-Zag;Assa-Zag;2;8203;0;1640;0
+locale;Guelmim - Oued-Noun;Guelmim;Guelmim;2;32705;0;6541;0
+locale;Guelmim - Oued-Noun;Sidi Ifni;Sidi Ifni;2;29572;0;5914;0
+locale;Guelmim - Oued-Noun;Tan-Tan;Tan-Tan;2;12937;0;2587;0
+regionale;Guelmim - Oued-Noun;;Circonscription régionale : Guelmim - Oued-Noun;5;31880;0;6376;0
+locale;Laâyoune - Sakia-El-Hamra;Boujdour;Boujdour;2;9670;0;1934;0
+locale;Laâyoune - Sakia-El-Hamra;Es-Semara;Es-Smara;2;9594;0;1919;0
+locale;Laâyoune - Sakia-El-Hamra;Laâyoune;Laâyoune;3;29269;294;5854;0
+locale;Laâyoune - Sakia-El-Hamra;Tarfaya;Tarfaya;2;4711;0;942;0
+regionale;Laâyoune - Sakia-El-Hamra;;Circonscription régionale : Laâyoune - Sakia-El-Hamra;5;26964;739;5393;0
+locale;Marrakech - Safi;Al-Haouz;Al-Haouz;4;47177;0;24768;0
+locale;Marrakech - Safi;Chichaoua;Chichaoua;4;34444;0;18083;1
+locale;Marrakech - Safi;El-Kelâa-des-Sraghna;El-Kelâa-des-Sraghna;4;38255;0;20084;0
+locale;Marrakech - Safi;Essaouira;Essaouira;4;35525;0;18650;0
+locale;Marrakech - Safi;Marrakech;Guéliz - Annakhil;3;27150;0;16592;1
+locale;Marrakech - Safi;Marrakech;Médina - Sidi-Youssef-Ben-Ali;3;17076;0;10435;1
+locale;Marrakech - Safi;Marrakech;Ménara;3;25487;0;15575;1
+locale;Marrakech - Safi;Rehamna;Rehamna;3;29719;0;15602;1
+locale;Marrakech - Safi;Safi;Safi;6;26299;0;13807;1
+locale;Marrakech - Safi;Youssoufia;Youssoufia;2;35102;0;18428;1
+regionale;Marrakech - Safi;;Circonscription régionale : Marrakech - Safi;10;114034;0;59868;0
+locale;Oriental;Berkane;Berkane;3;23698;0;12441;1
+locale;Oriental;Driouch;Driouch;3;25415;0;13343;0
+locale;Oriental;Figuig;Figuig;3;17061;0;8957;1
+locale;Oriental;Guercif;Guercif;2;28968;0;15208;0
+locale;Oriental;Jerada;Jerada;2;19620;0;10300;1
+locale;Oriental;Nador;Nador;4;29117;0;17794;1
+locale;Oriental;Oujda - Angad;Oujda - Angad;4;15302;0;8033;1
+locale;Oriental;Taourirt;Taourirt;2;28972;0;15210;1
+regionale;Oriental;;Circonscription régionale : Oriental;7;75544;0;39660;1
+locale;Rabat - Salé - Kénitra;Kénitra;El-Gharb;3;34718;0;18227;1
+locale;Rabat - Salé - Kénitra;Kénitra;Kénitra;4;33573;0;17626;1
+locale;Rabat - Salé - Kénitra;Khémisset;Khémisset - Oulmès;3;25997;0;15887;1
+locale;Rabat - Salé - Kénitra;Khémisset;Tifelt - Rommani;3;31252;0;19098;0
+locale;Rabat - Salé - Kénitra;Rabat;Rabat - Challah;3;13428;0;7050;1
+locale;Rabat - Salé - Kénitra;Rabat;Rabat - El Mouhit;4;11938;38;6268;1
+locale;Rabat - Salé - Kénitra;Salé;Salé - Al-Jadida;3;18943;39;9945;0
+locale;Rabat - Salé - Kénitra;Salé;Salé - Médina;4;12756;0;6697;1
+locale;Rabat - Salé - Kénitra;Sidi-Kacem;Sidi-Kacem;5;32059;0;16831;0
+locale;Rabat - Salé - Kénitra;Sidi Slimane;Sidi Slimane;3;29000;0;17722;1
+locale;Rabat - Salé - Kénitra;Skhirate - Temara;Skhirate - Témara;4;24507;0;12866;0
+regionale;Rabat - Salé - Kénitra;;Circonscription régionale : Rabat - Salé - Kénitra;10;95133;2906;49945;1
+locale;Souss - Massa;Agadir - Ida-ou-Tanane;Agadir - Ida-ou-Tanane;4;24586;0;12908;1
+locale;Souss - Massa;Chtouka - Aït-Baha;Chtouka - Aït-Baha;3;34020;0;17860;0
+locale;Souss - Massa;Inezgane - Aït-Melloul;Inézgane - Aït-Melloul;3;23954;0;12576;1
+locale;Souss - Massa;Taroudannt;Taroudannt - Al-Janoubia;4;37567;0;19723;1
+locale;Souss - Massa;Taroudannt;Taroudannt - Chamalia;3;42865;0;22504;0
+locale;Souss - Massa;Tata;Tata;2;25200;0;13230;0
+locale;Souss - Massa;Tiznit;Tiznit;2;32788;0;20037;1
+regionale;Souss - Massa;;Circonscription régionale : Souss - Massa;7;96775;0;50807;1
+locale;Tanger - Tétouan - Al Hoceima;Al Hoceima;Al-Hoceïma;4;26134;0;13720;0
+locale;Tanger - Tétouan - Al Hoceima;Chefchaouen;Chefchaouen;4;30298;0;15907;0
+locale;Tanger - Tétouan - Al Hoceima;Fahs - Anjra;Fahs - Anjra;2;14555;0;7641;0
+locale;Tanger - Tétouan - Al Hoceima;Larache;Larache;4;27441;0;16770;1
+locale;Tanger - Tétouan - Al Hoceima;M'Diq - Fnideq;M'Diq - Fnideq;2;16657;0;8745;1
+locale;Tanger - Tétouan - Al Hoceima;Ouezzane;Ouezzane;3;32158;0;16883;0
+locale;Tanger - Tétouan - Al Hoceima;Tanger - Assilah;Tanger - Assilah;5;23229;0;12195;1
+locale;Tanger - Tétouan - Al Hoceima;Tétouan;Tétouan;5;17217;0;9039;1
+regionale;Tanger - Tétouan - Al Hoceima;;Circonscription régionale : Tanger - Tétouan - Al Hoceima;8;86998;0;45674;1

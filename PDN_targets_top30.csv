@@ -1,0 +1,31 @@
+﻿region;prefProv;circonscription;typeListe;nSieges;txParticipation_pct;votes_total_parties;quotient;top_party;top_share;enp;pdn_votes;pdn_share;pdn_rank;risk_south;is_accessible;score
+Fès - Meknès;Taza;Taza;locale;5; 58 ;141507;28301;PAM;20%;7,950781224;1103;0,007794667;13;False;True;69%
+Beni-Mellal - Khénifra;Khouribga;Khouribga;locale;6; 51 ;131980;21997;RNI;17%;8,801924984;0;0;;False;True;67%
+Drâa - Tafilalet;Errachidia;Errachidia;locale;5; 59 ;113879;22776;RNI;22%;7,96298479;0;0;;False;True;59%
+Casablanca - Settat;Settat;Settat;locale;6; 61 ;178797;29800;RNI;21%;6,84040287;0;0;;False;True;59%
+Beni-Mellal - Khénifra;Beni-Mellal;Béni-Mellal;locale;6; 54 ;144731;24122;RNI;24%;6,927587837;208;0,001437149;14;False;True;58%
+Casablanca - Settat;El-Jadida;El-Jadida;locale;6; 58 ;201708;33618;RNI;26%;6,616468469;0;0;;False;True;54%
+Rabat - Salé - Kénitra;Sidi-Kacem;Sidi-Kacem;locale;5; 68 ;160295;32059;RNI;26%;6,386481789;0;0;;False;True;51%
+Marrakech - Safi;El-Kelâa-des-Sraghna;El-Kelâa-des-Sraghna;locale;4; 64 ;153019;38255;RNI;23%;7,049409925;0;0;;False;True;51%
+Casablanca - Settat;Sidi Bennour;Sidi Bennour;locale;4; 69 ;143380;35845;USFP;22%;6,392580774;0;0;;False;True;50%
+Tanger - Tétouan - Al Hoceima;Al Hoceima;Al-Hoceïma;locale;4; 53 ;104536;26134;PI;22%;6,598715744;0;0;;False;True;49%
+Tanger - Tétouan - Al Hoceima;Chefchaouen;Chefchaouen;locale;4; 64 ;121193;30298;RNI;26%;6,297582753;0;0;;False;True;47%
+Marrakech - Safi;Essaouira;Essaouira;locale;4; 66 ;142099;35525;USFP;24%;5,594488786;0;0;;False;True;45%
+Beni-Mellal - Khénifra;Azilal;Bzou - Ouaouizaght;locale;3; 70 ;90603;30201;RNI;25%;6,162982041;0;0;;False;True;44%
+Casablanca - Settat;Benslimane;Benslimane;locale;3; 68 ;77859;25953;PI;24%;5,835140394;0;0;;False;True;44%
+Rabat - Salé - Kénitra;Khémisset;Khémisset - Oulmès;locale;3; 54 ;77990;25997;RNI;24%;6,084502564;0;0;;False;True;43%
+Fès - Meknès;Sefrou;Sefrou;locale;3; 64 ;89500;29833;RNI;24%;5,847021366;0;0;;False;True;43%
+Drâa - Tafilalet;Zagora;Zagora;locale;3; 65 ;94625;31542;RNI;25%;5,325282386;0;0;;False;True;40%
+Beni-Mellal - Khénifra;Fquih Ben Salah;Fquih Ben Salah;locale;4; 51 ;126772;31693;RNI;30%;5,381316351;0;0;;False;True;39%
+Beni-Mellal - Khénifra;Khénifra;Khénifra;locale;3; 58 ;109276;36425;RNI;30%;5,712584662;0;0;;False;True;37%
+Rabat - Salé - Kénitra;Sidi Slimane;Sidi Slimane;locale;3; 57 ;86999;29000;UC;29%;5,385936142;0;0;;False;True;37%
+Oriental;Driouch;Driouch;locale;3; 59 ;76245;25415;RNI;27%;4,700499675;0;0;;False;True;37%
+Oriental;Figuig;Figuig;locale;3; 67 ;51184;17061;PAM;33%;4,99338501;0;0;;False;True;37%
+Marrakech - Safi;Al-Haouz;Al-Haouz;locale;4; 69 ;188707;47177;RNI;34%;4,886531167;0;0;;False;True;37%
+Tanger - Tétouan - Al Hoceima;Larache;Larache;locale;4; 53 ;109765;27441;RNI;32%;4,815343604;0;0;;False;True;37%
+Souss - Massa;Taroudannt;Taroudannt - Al-Janoubia;locale;4; 58 ;150269;37567;RNI;32%;4,343178653;0;0;;False;True;35%
+Marrakech - Safi;Chichaoua;Chichaoua;locale;4; 73 ;137775;34444;PAM;38%;4,706098122;0;0;;False;True;35%
+Casablanca - Settat;Berrechid;Berrechid;locale;4; 62 ;131820;32955;PI;33%;4,247737226;0;0;;False;True;35%
+Rabat - Salé - Kénitra;Khémisset;Tifelt - Rommani;locale;3; 65 ;93756;31252;RNI;30%;4,623383539;0;0;;False;True;35%
+Beni-Mellal - Khénifra;Azilal;Azilal - Demnate;locale;3; 73 ;81583;27194;PAM;32%;4,394232288;0;0;;False;True;35%
+Fès - Meknès;Taounate;Karia - Rhafsai;locale;3; 74 ;100806;33602;RNI;32%;4,36502681;0;0;;False;True;34%
