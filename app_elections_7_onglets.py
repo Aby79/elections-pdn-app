@@ -242,11 +242,32 @@ def display_analysis(tab, subtype: str, key_prefix: str) -> None:
         c1.metric("Élus / lignes", len(data))
         c2.metric("Territoires", len(unique_territories))
 
-        total_v = unique_territories["total_votes"].sum() if "total_votes" in unique_territories.columns else 0
-        c3.metric("Total votes uniques", f"{int(total_v) if pd.notna(total_v) else 0:,}")
+# Agrégation par territoire pour éviter les doublons
+territories_stats = (
+    data.groupby(
+        ["region", "province", "commune", "circonscription"],
+        dropna=False,
+        as_index=False
+    )
+    .agg(
+        total_votes=("total_votes", "max"),
+        taux_participation=("taux_participation", "max")
+    )
+)
 
-        avg_p = unique_territories["taux_participation"].mean() * 100 if "taux_participation" in unique_territories.columns else None
-        c4.metric("Participation moy.", f"{avg_p:.2f}%" if pd.notna(avg_p) else "N/A")
+total_v = territories_stats["total_votes"].sum()
+
+avg_p = territories_stats["taux_participation"].mean()
+
+c3.metric(
+    "Total votes",
+    f"{int(total_v):,}" if pd.notna(total_v) else "0"
+)
+
+c4.metric(
+    "Participation moy.",
+    f"{avg_p:.2f}%" if pd.notna(avg_p) else "N/A"
+)
 
         st.write("---")
 
@@ -440,6 +461,18 @@ def display_simulation(tab, df: pd.DataFrame, title: str, key_prefix: str) -> No
             if sort_col:
                 table_df = table_df.sort_values(sort_col, ascending=False)
 
+display_df = data.copy()
+
+if "taux_participation" in display_df.columns:
+    display_df["taux_participation"] = (
+        display_df["taux_participation"]
+        .astype(float)
+        .round(2)
+        .astype(str) + "%"
+    )
+
+st.dataframe(display_df[useful], use_container_width=True, hide_index=True)
+            
             st.dataframe(table_df, hide_index=True, use_container_width=True)
 
         st.subheader("Données complètes")
