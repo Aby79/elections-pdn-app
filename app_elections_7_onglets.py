@@ -465,17 +465,6 @@ def display_simulation(tab, df: pd.DataFrame, title: str, key_prefix: str) -> No
             if sort_col:
                 table_df = table_df.sort_values(sort_col, ascending=False)
 
-display_df = data.copy()
-
-if "taux_participation" in display_df.columns:
-    display_df["taux_participation"] = (
-        display_df["taux_participation"]
-        .astype(float)
-        .round(2)
-        .astype(str) + "%"
-    )
-
-st.dataframe(display_df[useful], use_container_width=True, hide_index=True)
             
             st.dataframe(table_df, hide_index=True, use_container_width=True)
 
