@@ -227,6 +227,7 @@ def filter_simulation(df: pd.DataFrame) -> pd.DataFrame:
 # -----------------------------------------------------------------------------
 # ONGLET ANALYSE ÉLECTORALE
 # -----------------------------------------------------------------------------
+
 def display_analysis(tab, subtype: str, key_prefix: str) -> None:
     with tab:
         st.header(subtype)
@@ -242,32 +243,26 @@ def display_analysis(tab, subtype: str, key_prefix: str) -> None:
         c1.metric("Élus / lignes", len(data))
         c2.metric("Territoires", len(unique_territories))
 
-# Agrégation par territoire pour éviter les doublons
-territories_stats = (
-    data.groupby(
-        ["region", "province", "commune", "circonscription"],
-        dropna=False,
-        as_index=False
-    )
-    .agg(
-        total_votes=("total_votes", "max"),
-        taux_participation=("taux_participation", "max")
-    )
-)
+        territories_stats = (
+            data.groupby(
+                ["region", "province", "commune", "circonscription"],
+                dropna=False,
+                as_index=False,
+            )
+            .agg(
+                total_votes=("total_votes", "max"),
+                taux_participation=("taux_participation", "max"),
+            )
+        )
 
-total_v = territories_stats["total_votes"].sum()
+        total_v = territories_stats["total_votes"].sum()
+        avg_p = territories_stats["taux_participation"].mean()
 
-avg_p = territories_stats["taux_participation"].mean()
-
-c3.metric(
-    "Total votes",
-    f"{int(total_v):,}" if pd.notna(total_v) else "0"
-)
-
-c4.metric(
-    "Participation moy.",
-    f"{avg_p:.2f}%" if pd.notna(avg_p) else "N/A"
-)
+        c3.metric("Total votes", f"{int(total_v):,}" if pd.notna(total_v) else "0")
+        c4.metric(
+            "Participation moy.",
+            f"{avg_p:.2f}%" if pd.notna(avg_p) else "N/A",
+        )
 
         st.write("---")
 
@@ -314,12 +309,21 @@ c4.metric(
                 st.plotly_chart(fig_geo, use_container_width=True, key=f"{key_prefix}_geo_distribution")
 
         st.subheader("Tableau de bord détaillé")
+
         useful = [
             c
             for c in data.columns
             if data[c].notna().any() and c not in ["type_election", "sous_type_election"]
         ]
-        st.dataframe(data[useful], use_container_width=True, hide_index=True)
+
+        display_df = data[useful].copy()
+
+        if "taux_participation" in display_df.columns:
+            display_df["taux_participation"] = (
+                display_df["taux_participation"].round(2).astype(str) + "%"
+            )
+
+        st.dataframe(display_df, use_container_width=True, hide_index=True)
 
 # -----------------------------------------------------------------------------
 # ONGLET SIMULATION PDN
