@@ -7,7 +7,7 @@ import streamlit as st
 # -----------------------------------------------------------------------------
 # CONFIGURATION PAGE
 # -----------------------------------------------------------------------------
-st.set_page_config(page_title="Décisionnel Élections 2021 & PDN", layout="wide")
+st.set_page_config(page_title="Décisionnel Élections 2021", layout="wide")
 
 BASE_DIR = Path(__file__).resolve().parent
 
